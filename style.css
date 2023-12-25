@@ -38,7 +38,7 @@ body {
   max-width: 350px;
   width: 100%;
   background-color: var(--white);
-  border: 2px solid var(--black);
+  border: 1px solid var(--black);
   border-radius: 1rem;
   box-shadow: 5px 5px 0px var(--black);
   padding: 1rem;
@@ -55,7 +55,7 @@ body {
   background-color: var(--orange);
   color: var(--black);
   font-weight: var(--fw-bold);
-  margin-block: 0.8rem;
+  margin-block: 1.2rem 0.8rem;
   display: inline-block;
   border-radius: 3px;
 }
@@ -79,7 +79,7 @@ body {
 .card .card__desc {
   font-size: 1rem;
   color: var(--grey);
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .card .card__profile {
